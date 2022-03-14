@@ -1,0 +1,21 @@
+{
+    "name": "falbar/trait-dto",
+    "description": "Trait help to create dto objects.",
+    "keywords": [
+        "php",
+        "object",
+        "dto"
+    ],
+    "homepage": "http://falbar.ru/",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "falbar/trait-singleton": "^1.0",
+        "dusank/knapsack": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Falbar\\TraitDto\\": "src"
+        }
+    }
+}
