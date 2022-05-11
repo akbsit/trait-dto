@@ -1,16 +1,16 @@
 # trait-dto, [Packagist](https://packagist.org/packages/falbar/trait-dto)
 
-## Установка
+## Install
 
-Для установки пакета нужно:
+To install package, you need run command:
 
 ```bash
 composer require falbar/trait-dto
 ```
 
-## Пример использования
+## Example
 
-Создаем класс DTO с подключенным трейтом `DtoTrait`:
+Create DTO class with trait `DtoTrait`:
 
 ```php
 <?php namespace App\Classes;
@@ -36,7 +36,7 @@ class ExampleDto
 }
 ```
 
-Создаем объект:
+Create object:
 
 ```php
 $oExampleDto = ExampleDto::instance()->create([
