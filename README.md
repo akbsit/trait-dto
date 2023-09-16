@@ -1,11 +1,11 @@
-# trait-dto, [Packagist](https://packagist.org/packages/falbar/trait-dto)
+# trait-dto, [Packagist](https://packagist.org/packages/akbsit/trait-dto)
 
 ## Install
 
 To install package, you need run command:
 
 ```bash
-composer require falbar/trait-dto
+composer require akbsit/trait-dto
 ```
 
 ## Example
@@ -15,7 +15,7 @@ Create DTO class with trait `DtoTrait`:
 ```php
 <?php namespace App\Classes;
 
-use Falbar\TraitDto\DtoTrait;
+use Akbsit\TraitDto\DtoTrait;
 
 /**
  * Class ExampleDto

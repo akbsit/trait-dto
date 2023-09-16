@@ -1,11 +1,11 @@
-<?php namespace Falbar\TraitDto;
+<?php namespace Akbsit\TraitDto;
 
-use Falbar\TraitSingleton\SingletonTrait;
+use Akbsit\TraitSingleton\SingletonTrait;
 use DusanKasan\Knapsack\Collection;
 
 /**
  * Class DtoTrait
- * @package Falbar\TraitDto
+ * @package Akbsit\TraitDto
  */
 trait DtoTrait
 {
